@@ -1,0 +1,119 @@
+body {
+    background-color: brown;
+    background-image: url(images/audience-1853662_1920.jpg);
+    color: rgb(245, 207, 207);
+    text-align: center;
+}
+
+.navbox {
+    position: fixed;
+    margin:auto;
+    z-index: 2;
+}
+
+.navelem {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.boxmain {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: auto;
+}
+.box {
+    background-color: rgba(99, 73, 73, 0.5);   
+    width: 100%;
+}
+
+.boxbox {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: rgba(41, 33, 33, 0.3);   
+    opacity: 0.8;
+    background-image: url(images/audience-1853662_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    max-width: 100%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: auto;
+}
+
+.box1 {
+    background-image: url(images/live-music-2219036_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 0;
+    opacity: 0.7;
+    grid-column: 1 / -1;
+    grid-row: 1;
+
+}
+.box2 {
+    background-image: url(images/guitars-2033566_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150px;
+    opacity: 0.5;
+    grid-column: 1 / -1;
+    grid-row: 2;
+}
+.box3 {
+    background-image: url(images/ensemble-619258_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    grid-column: 1;
+    grid-row: 3;
+}
+.box4{
+    grid-column: 2 / 4;
+    grid-row: 3;
+}
+.box5 {
+    background-image: url(images/black-and-white-2564630_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    grid-column: 4;
+    grid-row: 3;
+}
+/* the box on the bottom with an image */
+.box55 {
+    background-image: url(images/guitars-2033566_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 250px;
+    opacity: 0.5;
+    grid-column: 1 / -1;
+    grid-row: 5;
+}
+.box6{
+    grid-column: 1 / 4;
+    grid-row: 4;
+}
+.box7 {
+    background-image: url(images/hostile-886029_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    grid-column: 4;
+    grid-row: 4;
+}
+
+a {
+    font-size: larger;
+    color: white;
+}
